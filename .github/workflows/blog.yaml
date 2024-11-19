@@ -40,11 +40,13 @@ jobs:
       # 上传 Artifacts
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v2
+        with:
+          path: src/.vuepress/dist
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    
+
     permissions:
       contents: read
       pages: write
