@@ -2,9 +2,9 @@
 home: true
 layout: BlogHome
 icon: home
-title: 小电动的大电池
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-# heroText: 风带来故事的种子
+title: 主页
+heroImage: /avatar.jpg
+heroText: 小电动的大电池
 heroFullScreen: true
 tagline: 风带来故事的种子
 projects:

@@ -8,6 +8,8 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "小电动的大电池",
   description: "小电动的个人博客",
+  
+  port: 9810,
 
   theme,
 

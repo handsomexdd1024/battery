@@ -9,7 +9,7 @@ export default hopeTheme({
     author: {
         name: "小电动",
         url: "/intro",
-        email: "me@venti.love"
+        email: "me@venti.love",
     },
 
     license: "CC BY-NC-ND 4.0",
@@ -18,7 +18,8 @@ export default hopeTheme({
 
     logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-    repo: "vuepress-theme-hope/vuepress-theme-hope",
+    repo: "handsomexdd1024/battery",
+    editLink: false,
 
     docsDir: "src",
 
@@ -34,7 +35,7 @@ export default hopeTheme({
 
     // 博客相关
     blog: {
-        description: "风带来故事的种子",
+        description: "风带来了新的故事",
         intro: "/intro.html",
         medias: {
             //   Baidu: "https://example.com",
@@ -73,6 +74,7 @@ export default hopeTheme({
             //     link: "https://theme-hope.vuejs.press",
             //   },
         },
+        avatar: "/avatar.jpg"
     },
 
     // 加密配置
