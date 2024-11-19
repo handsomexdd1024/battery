@@ -12,7 +12,7 @@ export default hopeTheme({
         email: "me@venti.love"
     },
 
-    license: "CC-BY-NC-ND",
+    license: "CC BY-NC-ND 4.0",
 
     iconAssets: "fontawesome-with-brands",
 
