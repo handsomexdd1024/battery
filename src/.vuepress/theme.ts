@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-    hostname: "https://xddcloud.net",
+    hostname: "https://handsomexdd1024.github.io",
 
     author: {
         name: "小电动",
