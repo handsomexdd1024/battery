@@ -8,8 +8,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  docs:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
@@ -37,29 +40,12 @@ jobs:
       - name: Build VuePress site
         run: pnpm docs:build
 
-      # 上传 Artifacts
-      - name: Upload Artifacts
-        uses: actions/upload-pages-artifact@v2
-        with:
-          path: src/.vuepress/dist
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
-      pages: write
-      id-token: write
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    steps:
+      # 部署到 GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: peaceiris/actions-gh-pages@v4
+        if: github.ref == 'refs/heads/main'
         with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: src/.vuepress/dist
+          cname: xddcloud.net
