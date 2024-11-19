@@ -1,4 +1,4 @@
-name: blog
+name: docs
 
 on:
   # 每当 push 到 main 分支时触发部署
@@ -62,4 +62,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: src/.vuepress/dist
+          publish_dir: docs/.vuepress/dist
