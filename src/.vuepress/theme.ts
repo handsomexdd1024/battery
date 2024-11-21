@@ -101,7 +101,7 @@ export default hopeTheme({
             repo: "handsomexdd1024/battery",
             repoId: "R_kgDONRqLpQ",
             category: "General",
-            categoryId: "DIC_kwDONRqLpc4CkeRh",
+            categoryId: "DIC_kwDONRqLpc4CkeRi",
             strict: false,
         },
 
