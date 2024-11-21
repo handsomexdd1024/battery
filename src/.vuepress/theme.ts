@@ -100,7 +100,7 @@ export default hopeTheme({
             provider: "Giscus",
             repo: "handsomexdd1024/battery",
             repoId: "R_kgDONRqLpQ",
-            category: "Announcements",
+            category: "General",
             categoryId: "DIC_kwDONRqLpc4CkeRh",
             strict: false,
         },

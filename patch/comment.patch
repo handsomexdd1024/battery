@@ -11,7 +11,7 @@ index f4470f5..de0ec37 100644
 -            provider: "Giscus",
 -            repo: "handsomexdd1024/battery",
 -            repoId: "R_kgDONRqLpQ",
--            category: "Announcements",
+-            category: "General",
 -            categoryId: "DIC_kwDONRqLpc4CkeRh",
 -            strict: false,
 -        },
