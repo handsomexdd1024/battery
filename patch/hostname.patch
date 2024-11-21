@@ -1,0 +1,13 @@
+diff --git src/.vuepress/theme.ts src/.vuepress/theme.ts
+index dae7d0f..6dec1af 100644
+--- src/.vuepress/theme.ts
++++ src/.vuepress/theme.ts
+@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
+ import sidebar from "./sidebar.js";
+ 
+ export default hopeTheme({
+-    hostname: "https://xddcloud.net",
++    hostname: "https://venti.ink",
+ 
+     author: {
+         name: "小电动",
