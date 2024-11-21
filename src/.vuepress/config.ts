@@ -3,16 +3,16 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/",
+    base: "/",
 
-  lang: "zh-CN",
-  title: "小电动的大电池",
-  description: "小电动的个人博客",
-  
-  port: 9810,
+    lang: "zh-CN",
+    title: "小电动的大电池",
+    description: "小电动的个人博客",
 
-  theme,
+    port: 9810,
 
-  // 和 PWA 一起启用
-  // shouldPrefetch: false,
+    theme,
+
+    // 和 PWA 一起启用
+    // shouldPrefetch: false,
 });
