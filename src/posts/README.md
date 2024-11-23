@@ -1,12 +1,10 @@
 ---
-title: 我的文章
+title: 随笔
 index: false
 icon: mingcute:pencil-3-fill
-category:
-  - 文章
 article: false
 ---
 
-这里是我的文章合集。
+一些非技术类文章，也许是有感而发。
 
 <Catalog />
