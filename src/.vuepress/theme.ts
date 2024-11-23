@@ -20,6 +20,7 @@ export default hopeTheme({
 
     repo: "handsomexdd1024/battery",
     editLink: false,
+    contributors: false,
 
     docsDir: "src",
 
