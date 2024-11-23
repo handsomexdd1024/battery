@@ -7,14 +7,14 @@ export default hopeTheme({
     hostname: "https://xddcloud.net",
 
     author: {
-        name: "小电动",
+        name: "你为什么骑着小电动",
         url: "/intro",
         email: "me@venti.love",
     },
 
     license: "CC BY-NC-ND 4.0",
 
-    iconAssets: "fontawesome-with-brands",
+    iconAssets: "iconify",
 
     logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
@@ -30,8 +30,8 @@ export default hopeTheme({
     sidebar,
 
     // 页脚
-    footer: "默认页脚",
-    displayFooter: false,
+    footer: "牵引你我相遇的，想必是自由之风",
+    displayFooter: true,
 
     // 博客相关
     blog: {
