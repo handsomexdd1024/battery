@@ -1,8 +1,12 @@
 ---
 icon: fluent:person-info-24-regular
 # cover: /assets/images/cover3.jpg
-article: false
+article: true
 ---
+
+我是小电动，或者“你为什么骑着小电动”。   
+
+<!-- more -->
 
 # 关于我
 
