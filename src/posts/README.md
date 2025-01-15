@@ -5,6 +5,6 @@ icon: mingcute:pencil-3-fill
 article: false
 ---
 
-一些非技术类文章，也许是有感而发。
+非技术类文章，也许是有感而发。
 
 <Catalog />

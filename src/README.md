@@ -3,10 +3,11 @@ home: true
 layout: BlogHome
 icon: fluent:home-32-filled
 title: 主页
-heroImage: /avatar.jpg
-heroText: 小电动的大电池
+bgImage: /assets/images/home-bg.jpg
+heroImage: /assets/icon/favicon-white-background.png
+heroText: ""
 heroFullScreen: true
-tagline: 风带来故事的种子
+tagline: ""
 projects:
 #   - icon: project
 #     name: 项目名称

@@ -4,6 +4,7 @@ tag:
     - 教程
 category:
     - 技术
+# star: true
 ---
 
 # OpenPGP 极简入门教学
