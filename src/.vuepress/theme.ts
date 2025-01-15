@@ -1,7 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
-import navbar from "./navbar.js";
-import sidebar from "./sidebar.js";
+// import sidebar from "./sidebar.js";
 
 export default hopeTheme({
     hostname: "https://xddcloud.net",
@@ -16,7 +15,7 @@ export default hopeTheme({
 
     iconAssets: "iconify",
 
-    logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+    logo: "/favicon.png",
 
     repo: "handsomexdd1024/battery",
     editLink: false,
@@ -25,10 +24,40 @@ export default hopeTheme({
     docsDir: "src",
 
     // 导航栏
-    navbar,
+    navbar: [
+        "/",
+        "/intro",
+        {
+            text: "全部文章",
+            link: "/article/",
+            icon: "material-symbols:book-rounded",
+        },
+        {
+            text: "技术",
+            link: "/category/技术/",
+            icon: "fluent:wrench-16-filled"
+        },
+        {
+            text: "随笔",
+            link: "/category/随笔/",
+            icon: "mingcute:pencil-3-fill",
+        },
+        {
+            text: "日记",
+            link: "/category/日记/",
+            icon: "mingcute:calendar-fill",
+        },
+    ],
 
     // 侧边栏
-    sidebar,
+    sidebar: {
+        // "/tech/": "structure",
+        "/posts/": "structure",
+        "/": [
+            "",
+            "intro",
+        ],
+    },
 
     // 页脚
     footer: "牵引你我相遇的，想必是自由之风",
@@ -75,7 +104,7 @@ export default hopeTheme({
             //     link: "https://theme-hope.vuejs.press",
             //   },
         },
-        avatar: "/avatar.jpg"
+        avatar: "/favicon.png"
     },
 
     // 加密配置
@@ -95,7 +124,10 @@ export default hopeTheme({
 
     // 在这里配置主题提供的插件
     plugins: {
-        blog: true,
+        blog: {
+            excerpt: true,
+            excerptLength: 100,
+        },
         
         comment: {
             provider: "Giscus",
